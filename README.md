@@ -6,3 +6,18 @@
 4. The backend receives data and inserts it into MongoDB Atlas.
 5. Appropriate messages are displayed according to what happens: success or error.
 6. MongoDB connection details are stored successfully using environment variables.
+
+
+## COMMANDS USED
+
+### To run backend on port 5001
+```bash
+cd backend
+py app.py
+```
+
+### To run frontend on port 5000
+```bash
+cd frontend
+py app.py
+```
